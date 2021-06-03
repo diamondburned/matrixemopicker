@@ -2,6 +2,8 @@ github.com/chanbakjsd/gotrix v0.2.0 h1:jGLFjed/edYgboEsBApw1P4iKmGeO2MuBxx/C+43x
 github.com/chanbakjsd/gotrix v0.2.0/go.mod h1:tHgqHzAHPNJ8vm/S6lWJfyOASWq5fR00IQbCYSd7DR8=
 github.com/chanbakjsd/gotrix v0.2.1-0.20210520142136-1fdf08cb7f60 h1:s3u5xAPhO9Q57kbtHAGtProj1OZH+JgTqGE7ufZ08Zk=
 github.com/chanbakjsd/gotrix v0.2.1-0.20210520142136-1fdf08cb7f60/go.mod h1:tHgqHzAHPNJ8vm/S6lWJfyOASWq5fR00IQbCYSd7DR8=
+github.com/chanbakjsd/gotrix v0.2.1-0.20210523110724-24f4a4d0e0ca h1:S5eVn5bCS3mUceQJXw1pi2JlnGnDhZ1lQYO81A4ICSo=
+github.com/chanbakjsd/gotrix v0.2.1-0.20210523110724-24f4a4d0e0ca/go.mod h1:tHgqHzAHPNJ8vm/S6lWJfyOASWq5fR00IQbCYSd7DR8=
 github.com/danieljoos/wincred v1.1.0 h1:3RNcEpBg4IhIChZdFRSdlQt1QjCp1sMAPIrOnm7Yf8g=
 github.com/danieljoos/wincred v1.1.0/go.mod h1:XYlo+eRTsVA9aHGp7NGjFkPla4m+DCL7hqDjlFjiygg=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

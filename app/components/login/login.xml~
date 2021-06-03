@@ -83,7 +83,7 @@
                   <object class="GtkEntry" id="password-email">
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
-                    <property name="placeholder_text" translatable="yes">john.doe@domain.com</property>
+                    <property name="placeholder_text" translatable="yes">jane.doe</property>
                     <property name="input_purpose">email</property>
                   </object>
                   <packing>

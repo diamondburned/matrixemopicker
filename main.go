@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"log"
 	"os"
 	"os/signal"
@@ -17,6 +18,13 @@ type EmotesEvent map[string]interface{}
 var _ event.Event = (*EmotesEvent)(nil)
 
 func (ev EmotesEvent) Type() event.Type { return "im.ponies.user_emotes" }
+
+func init() {
+	event.Register("im.ponies.user_emotes", func(ev event.RawEvent) (Event, error) {
+		ev := EmotesEvent{}
+		return ev, json.Unmarshal(ev.Content, &ev)
+	})
+}
 
 var (
 	sigint = make(chan os.Signal)
